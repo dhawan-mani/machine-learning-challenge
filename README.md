@@ -38,7 +38,7 @@
 ##### Then i decided to create clusters using make_blobs for the data and kmeans by using Koi-score as X-axis and Koi_disposition in y.
 
 
-#### Deep learning-2
+#### Deep learning Model
 ##### For this model, data cleaning and preprocessing steps were the same as Deep Learning-1 model except the fact that i decided to keep All the categories of Koi_disposition in this case and performing search on the raw data set.
 ##### After deciding which features to keep next step was assigning X and y values for the model to perform split data to get train and test data for the model.
 ##### Next step is to scale and normalize the data to create more accurate model that has less gap between data points so they all have acurate weights for the model. I used  MinMaxScaler to scale the data with deep learning model with a Loss: 0.258515864610672, Accuracy: 0.8998855948448181 after performing the deep learning.
